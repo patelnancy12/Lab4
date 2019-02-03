@@ -8,7 +8,7 @@ def walk(dirname):
       print path
     else :
       walk(path)
-
+      print('nancy')
 
 walk(os.getcwd())
 
